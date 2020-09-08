@@ -1,3 +1,8 @@
+*{
+
+}
+
+
 
 body{
    background-color: #FACBCA;
@@ -6,17 +11,17 @@ body{
 
 h1{
   font-family: tahoma;
-  font-size: 100px;
+  font-size: 500%;
   color: black;
   margin-top: 15px;
+  text-align: center;
 
 }
 
 ul{
-
   font-family: tahoma;
   margin-top: 10px;
-  font-size: 25px;
-  color: black;
+  font-size: 200%;
+  margin-left: 30px;
 
 }
