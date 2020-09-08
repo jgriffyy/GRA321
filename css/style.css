@@ -5,16 +5,20 @@ body{
 }
 
 h1{
-  font-family: helvetica;
+  font-family: tahoma;
   font-weight: 5%;
   font-size: 100px;
   text-align: center;
   color: black;
   margin-top: 10%;
+
 }
 
 ul{
-  font-family: helvetica;
-  margin-left: 10%;
+  font-family: tahoma;
+  margin-left: 30%;
+  margin-top: 3%;
   font-size: 25px;
+  color: black;
+  
 }
