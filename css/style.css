@@ -6,7 +6,7 @@ body{
 h1{
   font-family: helvetica;
   font-size: 500%;
-  font-weight: 500;
+  font-weight: bold;
   color: black;
   margin-top: 50px;
   text-align: center;
@@ -16,5 +16,5 @@ ul{
   font-family: helvetica;
   margin-top: 10px;
   font-size: 200%;
-  margin-left: 400px;
+  margin-left: 450px;
 }
