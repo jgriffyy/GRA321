@@ -1,17 +1,29 @@
-body{
-background-color: #BCA4A4;
 
+body{
+   background-color: #BCA4A4;
+   font-family: Franklin Gothic Demi;
 }
 
 h1{
-color: #374932;
-margin-left: 10%;
-margin-top: 10%;
-
+  font-size: 40px;
+  text-align: center;
+  background-color: #374932;
+  padding: 20px;
+  outline-style: solid;
+  outline-width: 10px;
+  outline-color: #374932;
 }
 
 ul{
-margin-left:10%;
-margin-top: 2%;
+  color: 374932;
+  list-style-type: none;
+  margin-left: 40px;
+  padding-bottom: 40px;
+  font-size: 20px;
+}
 
+p{
+ text-align: left;
+  margin-left: 80px;
+  color: purple;
 }
