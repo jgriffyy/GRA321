@@ -1,21 +1,18 @@
 
 body{
    background-color: #BCA4A4;
-   font-family: Franklin Gothic Demi;
+
 }
 
 h1{
+  font-family: Franklin Gothic Demi;
   font-size: 40px;
   margin-left: 10%;
-  background-color: #374932;
-  padding: 20px;
-  outline-style: solid;
-  outline-width: 10px;
-  outline-color: #374932;
+  color: #374932;
+  margin-top: 10%;
 }
 
 ul{
   margin-left: 10%;
-  padding-bottom: 40px;
   font-size: 20px;
 }
