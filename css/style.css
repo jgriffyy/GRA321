@@ -10,14 +10,15 @@ h1{
   font-size: 100px;
   text-align: center;
   color: black;
-  margin-top: 10%;
+  margin-top: 10px;
 
 }
 
 ul{
 
   font-family: tahoma;
-  margin-top: 3%;
+  margin-top: 10px;
+  margin-left: 20px;
   font-size: 25px;
   color: black;
 
