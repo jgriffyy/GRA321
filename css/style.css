@@ -1,19 +1,20 @@
 
 body{
-   background-color: #BCA4A4;
+   background-color: #FACBCA;
 
 }
 
 h1{
-  font-family: Franklin Gothic;
-  font-size: 40px;
-  margin-left: 10%;
-  color: #374932;
+  font-family: helvetica;
+  font-weight: 5%;
+  font-size: 100px;
+  text-align: center;
+  color: black;
   margin-top: 10%;
 }
 
 ul{
-  font-family: Franklin Gothic;
+  font-family: helvetica;
   margin-left: 9%;
-  font-size: 20px;
+  font-size: 25px;
 }
