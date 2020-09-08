@@ -6,7 +6,7 @@ body{
 
 h1{
   font-size: 40px;
-  text-align: center;
+  margin-left: 10%;
   background-color: #374932;
   padding: 20px;
   outline-style: solid;
@@ -15,15 +15,7 @@ h1{
 }
 
 ul{
-  color: 374932;
-  list-style-type: none;
-  margin-left: 40px;
+  margin-left: 10%;
   padding-bottom: 40px;
   font-size: 20px;
-}
-
-p{
- text-align: left;
-  margin-left: 80px;
-  color: purple;
 }
