@@ -17,8 +17,9 @@ body{
 
 ul{
   font-family:helvetica, sans-serif;
-  margin-left: 140px;
+  margin-left: 120px;
   padding-top: 20px;
-  font-size: 150%;
+  font-size: 100%;
   font-weight: bold;
+  text-decoration-color: white;
 }
