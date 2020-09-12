@@ -14,3 +14,12 @@ h1{
 body{
    background-color: #E5B7B7;
 }
+a{
+  margin-left: 150px;
+  padding-top: 20px;
+  font-size: 100%;
+  font-weight: bold;
+}
+.padding-hover:hover{
+  color:white;
+}
