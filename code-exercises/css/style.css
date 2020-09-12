@@ -42,9 +42,8 @@ button {
 .container {
 background-image: url(https://townsquare.media/site/442/files/2016/10/The-Cat-in-the-Hat.jpg?w=980&q=75);
 background-size: cover;
-color:black;
 height:400px
-margin-top:50px;
-width:50%
+margin:0 auto;
+width:25%;
 
 }
