@@ -26,6 +26,9 @@ li{
   background-color:black;
   color:white;
   text-decoration: underline;
+}
+
+button {
   margin-left: 120px;
   padding-top: 20px;
 }
