@@ -14,7 +14,9 @@ h1{
 body{
    background-color: #E5B7B7;
 }
+
 ul{
+  font-family:helvetica, sans-serif;
   margin-left: 150px;
   padding-top: 20px;
   font-size: 100%;
