@@ -5,3 +5,10 @@
 h1 {
 
 }
+
+a{
+  color:white;
+}
+.padding-hover:hover{
+  background-color: black;
+}
