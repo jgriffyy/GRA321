@@ -3,12 +3,12 @@
 }
 
 h1{
+  color: white;
   font-family: helvetica, sans-serif;
   font-size: 400%;
   font-weight: 900;
-  color: white;
-  margin-top: 50px;
   margin-left: 150px;
+  margin-top: 50px;
 }
 
 body{
@@ -16,11 +16,12 @@ body{
 }
 
 li{
+  font-size: 100%;
+  font-weight: bold;
   font-family:helvetica, sans-serif;
   margin-left: 120px;
   padding-top: 20px;
-  font-size: 100%;
-  font-weight: bold;
+
 }
 
 .padding-hover:hover {
@@ -30,9 +31,19 @@ li{
 }
 
 button {
+  border: none;
+  color: #B77E98;
   margin-left: 150px;
   margin-top: 50px;
   padding: 2%;
-  border: none;
-  color: #B77E98;
+
+}
+
+.container {
+background-image: url(https://townsquare.media/site/442/files/2016/10/The-Cat-in-the-Hat.jpg?w=980&q=75);
+background-size: cover;
+height:400px
+margin:0 auto;
+width:25%
+
 }
