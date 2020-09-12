@@ -3,7 +3,7 @@
 }
 
 h1{
-  font-family: helvetica;
+  font-family: helvetica, sans-serif;
   font-size: 400%;
   font-weight: 900;
   color: white;
@@ -23,7 +23,7 @@ li{
   font-weight: bold;
 }
 
-a{
+.padding-hover:hover {
   background-color:black;
   color:white;
   text-decoration: none;
