@@ -24,6 +24,7 @@ li{
 }
 .padding-hover:hover {
   background-color:black;
+  color:#E5B7B7;
   text-decoration: underline;
 }
 
