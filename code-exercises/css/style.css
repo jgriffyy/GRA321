@@ -4,7 +4,7 @@
 
 h1{
   font-family: helvetica;
-  font-size: 500%;
+  font-size: 400%;
   font-weight: 900;
   color: white;
   margin-top: 50px;
@@ -14,12 +14,9 @@ h1{
 body{
    background-color: #E5B7B7;
 }
-a{
+ul{
   margin-left: 150px;
   padding-top: 20px;
   font-size: 100%;
   font-weight: bold;
-}
-.padding-hover:hover{
-  color:white;
 }
