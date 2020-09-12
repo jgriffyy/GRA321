@@ -24,7 +24,7 @@ li{
 }
 .padding-hover:hover {
   background-color:black;
-  color:#E5B7B7;
+  color:white;
   text-decoration: underline;
 }
 
@@ -33,4 +33,5 @@ button {
   margin-top: 50px;
   padding: 2%;
   border: none;
+  color: #E5B7B7;
 }
