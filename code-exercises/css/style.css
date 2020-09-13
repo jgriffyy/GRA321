@@ -18,9 +18,8 @@ body{
 li{
   font-size: 100%;
   font-weight: bold;
-  font-family:Arial, sans-serif;
+  margin-left: 140px;
   padding-top: 20px;
-
 }
 
 .padding-hover:hover {
