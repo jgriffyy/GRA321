@@ -40,10 +40,18 @@ button {
 }
 
 .container {
-background-image: url(https://i.redd.it/voi5a6i6vdw11.jpg);
-background-size: cover;
-height:700px;
-margin:0 auto;
-width:70%;
 
+    background-image: url(https://github.com/jgriffyy/gra-321-2020/blob/master/code-exercises/img/exercise2.jpg?raw=true);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 700px;
+    margin:0 auto;
+    width:70%;
+}
+
+h2 {font-family: Helvetica;
+    color:black;
+    font-size:52px;
+    position: relative;
+    text-align: center;
 }
