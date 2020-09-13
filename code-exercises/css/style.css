@@ -4,7 +4,7 @@
 
 h1{
   color: white;
-  font-family: helvetica, sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 400%;
   font-weight: 900;
   margin-left: 150px;
@@ -18,7 +18,7 @@ body{
 li{
   font-size: 100%;
   font-weight: bold;
-  font-family:helvetica, sans-serif;
+  font-family:Arial, sans-serif;
   padding-top: 20px;
 
 }
@@ -48,7 +48,7 @@ button {
     width:70%;
 }
 
-h2 {font-family: Helvetica;
+h2 {font-family: Arial;
     color:white;
     font-size:52px;
     font-weight: 900;
