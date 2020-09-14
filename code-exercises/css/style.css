@@ -65,3 +65,10 @@ h2 {
     position: relative;
     text-align: center;
 }
+
+li{
+  margin-left: 140px;
+  padding-top: 20px;
+  font-size: 100%;
+  font-weight: bold;
+}
