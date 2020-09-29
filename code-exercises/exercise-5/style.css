@@ -3,12 +3,18 @@ body {
 }
 
 
-h2{
-font-family: Helvetica;
-margin-left: 60px;
+h2 {
+  color:black;
+  font-family: Arial;
+  font-size: 200%;
+  font-weight: 900;
+  margin-top: 50px;
 }
 
-h3{
-font-family: Helvetica;
-margin-left: 60px;
+h3 {
+  color: gray;
+  font-family: serif;
+  font-size: 150%;
+  font-weight: normal;
+  margin-top: 20px;
 }
