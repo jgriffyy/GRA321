@@ -85,5 +85,5 @@ li {
   position:relative;
   left: 500px;
   margin-left: 150px;
-  margin-top: none;
+  top: auto;
 }
