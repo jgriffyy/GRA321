@@ -69,8 +69,9 @@ h2{
 h3{
   color: gray;
   font-family: serif;
-  font-size: 75%;
+  font-size: 100%;
   font-weight: normal;
+  margin-left: 150px;
   margin-top: 50px;
 
 }
