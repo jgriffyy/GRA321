@@ -3,7 +3,12 @@ body {
 }
 
 
-h1{
+h2{
+font-family: Helvetica;
+margin-left: 60px;
+}
+
+h3{
 font-family: Helvetica;
 margin-left: 60px;
 }
