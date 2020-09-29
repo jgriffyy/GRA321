@@ -10,16 +10,16 @@ h1{
   font-size: 200%;
   font-weight: 900;
   margin-top: 50px;
-  margin-right: 60px;
+  margin-left: 60px;
 }
 
 h2{
-  color: DarkGray;
+  color: Gray;
   font-family: serif;
   font-size: 150%;
   font-weight: normal;
   margin-top: 20px;
-  margin-right: 60px;
+  margin-left: 60px;
 }
 
 img {
