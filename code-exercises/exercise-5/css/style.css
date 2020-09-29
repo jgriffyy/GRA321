@@ -9,6 +9,8 @@ h1{
   font-family: Arial;
   font-size: 50px;
   font-weight: bold;
+  line-height: 40px;
+  letter-spacing: -20;
   margin-top: 100px;
   margin-left: 60px;
 }
@@ -41,6 +43,8 @@ img {
 p{
   font-family: Helvetica;
   font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -20;
   margin-top: 700px;
   margin-left: 60px;
 }
