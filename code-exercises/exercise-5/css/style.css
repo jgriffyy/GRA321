@@ -1,6 +1,6 @@
 
 body{
-  background-color: red;
+  background-color: white;
 }
 
 
@@ -10,18 +10,24 @@ h1{
   font-size: 200%;
   font-weight: 900;
   margin-top: 50px;
+  margin-right: 60px;
 }
 
 h2{
-  color: gray;
+  color: DarkGray;
   font-family: serif;
   font-size: 150%;
   font-weight: normal;
   margin-top: 20px;
+  margin-right: 60px;
 }
 
 img {
   display: block;
   float: right;
   padding-right: 30px;
+}
+
+.bowls{
+  width:932px;
 }
