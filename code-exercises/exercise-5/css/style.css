@@ -23,11 +23,5 @@ h2{
 }
 
 img {
-  display: block;
-  float: right;
-  padding-right: 30px;
-}
-
-.bowls{
-  width:932px;
+  float:right;
 }
