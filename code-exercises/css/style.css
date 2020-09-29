@@ -84,9 +84,8 @@ li {
 }
 
 .test {
-  position: relative;
+  position:relative;
   top: 0;
   right: 30px;
-  margin-left: 150px;
 
 }
