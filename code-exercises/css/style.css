@@ -2,7 +2,7 @@
 
 }
 
-body{
+body {
    background-color: #E5B7B7;
 }
 
@@ -30,7 +30,7 @@ button {
 }
 
 
-h1{
+h1 {
   color: white;
   font-family: Arial;
   font-size: 400%;
@@ -57,7 +57,7 @@ h1{
     width:70%;
 }
 
-h2{
+h2 {
   color:black;
   font-family: Arial;
   font-size: 200%;
@@ -66,28 +66,22 @@ h2{
   margin-top: 50px;
 }
 
-h3{
+h3 {
   color: gray;
   font-family: serif;
   font-size: 150%;
   font-weight: normal;
   margin-left: 150px;
   margin-top: 20px;
-
 }
 
-img{
-  float: none;
-}
-
-
-li{
+li {
   margin-left: 140px;
   font-size: 200%;
   font-weight: bold;
 }
 
-.test{
+.test {
   float:right;
   margin-left: 150px;
 }
