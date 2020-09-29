@@ -12,24 +12,7 @@ button {
   margin-left: 150px;
   margin-top: 50px;
   padding: 2%;
-
 }
-
-
-/*---Media Queries---*/
-@media screen and (max-width: 1000px) {
-    body {
-
-        background-color: #DB9B40;
-    }
-}
-
-@media screen and (max-width: 700px) {
-    body {
-        background-color: #EAAE68;
-    }
-}
-
 
 h1 {
   color: white;
@@ -49,7 +32,6 @@ h1 {
 
 
 .container {
-
     background-image: url(https://github.com/jgriffyy/gra-321-2020/blob/master/code-exercises/img/exercise2.jpg?raw=true);
     background-size: contain;
     background-repeat: no-repeat;
@@ -63,4 +45,18 @@ li {
   margin-left: 140px;
   font-size: 200%;
   font-weight: bold;
+}
+
+/*---Media Queries---*/
+@media screen and (max-width: 1000px) {
+    body {
+
+        background-color: #DB9B40;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    body {
+        background-color: #EAAE68;
+    }
 }
