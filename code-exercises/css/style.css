@@ -83,6 +83,7 @@ li {
 
 .test {
   position:relative;
-  left: 1000px;
+  left: 500px;
   margin-left: 150px;
+  margin-top: none;
 }
