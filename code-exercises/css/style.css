@@ -69,10 +69,10 @@ h2{
 h3{
   color: gray;
   font-family: serif;
-  font-size: 100%;
+  font-size: 150%;
   font-weight: normal;
   margin-left: 150px;
-  margin-top: 50px;
+  margin-top: 20px;
 
 }
 
@@ -89,6 +89,5 @@ li{
 
 .test{
   float:right;
-  margin-left: auto;
-  margin-top: 20px;
+  margin-left: 150px;
 }
