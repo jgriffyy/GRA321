@@ -82,5 +82,6 @@ li {
 }
 
 .test {
+  position: relative;
   margin-left: 150px;
 }
