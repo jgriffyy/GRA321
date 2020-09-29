@@ -84,7 +84,7 @@ li {
 .test {
   position:fixed;
   top: 0;
-  right: 30;
+  right: 30px;
   margin-left: 150px;
 
 }
