@@ -14,7 +14,6 @@ h1{
 }
 
 h2{
-  color: Gray;
   font-family: serif;
   font-size: 200%;
   font-weight: normal;
@@ -42,6 +41,6 @@ img {
 p{
   font-family: Helvetica;
   font-size: 100%;
-  margin-bottom: 60px;
+  margin-top: 300px;
   margin-left: 60px;
 }
