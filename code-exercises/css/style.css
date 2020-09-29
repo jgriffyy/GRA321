@@ -79,4 +79,6 @@ li{
 
 .test{
   float:right;
+  margin-left: auto;
+  margin-top: 20px;
 }
