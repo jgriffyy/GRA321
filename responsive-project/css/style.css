@@ -1,7 +1,83 @@
-* {
+a {
+color:#311008;
+text-decoration:none;
+font-weight:700;
+font-family:Helvetica;
+font-size:16px;
+line-height:25pt;
+}
 
+body {
+color:#311008;
+margin-left:20px;
+font-family:Helvetica;
+padding-top:5px;
+padding-bottom:5px;
+text-align: center;
 }
 
 h1 {
+font-size:20pt;
+}
 
+header {
+  text-align: center;
+}
+
+p {
+line-height:25pt;
+font-size:16pt;
+}
+
+ul {
+list-style:none;
+line-height:30pt;
+font-size:16pt;
+}
+
+#contactus {
+padding-top:3px;
+line-height:20pt;
+}
+
+#hot {
+display:inline-block;
+line-height:30pt;
+font-size:16pt;
+padding-right:33px;
+text-align: left;
+}
+
+#iced {
+display:inline-block;
+line-height:30pt;
+font-size:16pt;
+padding-right:70px;
+text-align: left;
+}
+
+#locations {
+line-height:20pt;
+font-size:14pt;
+padding-bottom:30px;
+}
+
+#specials {
+display:inline-block;
+line-height:30pt;
+font-size:16pt;
+padding-right:20px;
+text-align: left;
+}
+
+#teas {
+display:inline-block;
+line-height:30pt;
+font-size:16pt;
+padding-right:24px;
+text-align: left;
+}
+
+#hotprices,#icedprices,#prices {
+display:inline-block;
 }
