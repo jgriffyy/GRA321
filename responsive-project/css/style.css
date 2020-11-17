@@ -1,3 +1,8 @@
+
+#about p{background-color: #1F1F1D;
+	color: #FFF;
+	padding: 40px 40px 40px 40px;}
+
 table {
 	width: 600px;
 }
@@ -36,6 +41,7 @@ nav ul {
 	margin: 0;
 	padding-left: 0;
 	text-align: center;
+	background-color: #A2A941;
 }
 
 ul {
@@ -45,8 +51,9 @@ ul {
 }
 
 #contactus {
-	padding-top: 3px;
+	padding: 10px 30px 30px 30px;
 	line-height: 20pt;
+	background-color: #A2A941;
 }
 
 
@@ -69,13 +76,18 @@ ul {
 #locations {
 	line-height: 20pt;
 	font-size: 14pt;
-	padding-bottom: 30px;
+	padding: 5px 30px 30px 30px;
+	background-color: #F3F3F3;
 }
+
+
+
 
 
 @media only screen and (min-width: 1024px) {
 	#about {
-
+display: flex;
+justify-content: space-around;
 	}
 
   #espresso {
@@ -102,7 +114,7 @@ ul {
 
 	#iced-and-pic,#hot-and-specials{
 		display:flex;
-		justify-content: space-around;
+		justify-content: space-between;
 	}
 
 }
