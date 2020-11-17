@@ -100,7 +100,7 @@ ul {
 		font-weight: bold;
 	}
 
-	#iced-and-pi,#hot-and-specialsc{
+	#iced-and-pic,#hot-and-specials{
 		display:flex;
 		justify-content: space-around;
 	}
