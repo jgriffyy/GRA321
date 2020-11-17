@@ -52,13 +52,14 @@ ul {
 
 #hotcup,#icedcup{}
 
-#hot,
-#specials,
+.hot,
 #teas {
 	line-height: 30pt;
 	font-size: 16pt;
 	text-align: left;
 }
+
+
 
 #iced {
   line-height: 30pt;
@@ -99,7 +100,7 @@ ul {
 		font-weight: bold;
 	}
 
-	#iced-and-pic{
+	#iced-and-pi,#hot-and-specialsc{
 		display:flex;
 		justify-content: space-around;
 	}
