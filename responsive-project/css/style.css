@@ -1,16 +1,17 @@
-
-#about p{background-color: #1F1F1D;
-	color: #FFF;
-	padding: 40px 40px 40px 40px;}
-
-table {
-	width: 600px;
+a {
+	font-family: Helvetica;
+	font-size: 16pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
 }
+
 
 body {
 	color: #311008;
 	font-family: Helvetica;
 }
+
 
 h1 {
 	font-size: 20pt;
@@ -22,19 +23,6 @@ header {
 	padding-bottom: 2em;
 }
 
-p {
-	line-height: 25pt;
-	font-size: 16pt;
-}
-
-a {
-	font-family: Helvetica;
-	font-size: 16pt;
-	font-weight: bold;
-	text-decoration: none;
-	color: black;
-}
-
 nav ul {
 	font-size: 1.2em;
 	list-style: none;
@@ -44,10 +32,35 @@ nav ul {
 	background-color: #A2A941;
 }
 
+p {
+	line-height: 25pt;
+	font-size: 16pt;
+}
+
+table {
+	width: 500px;
+}
+
 ul {
 	list-style: none;
 	line-height: 30pt;
 	font-size: 16pt;
+}
+
+.hot {
+	line-height: 30pt;
+	font-size: 16pt;
+	text-align: left;
+}
+
+.menupics {
+	width: 100%;
+}
+
+#about p {
+	background-color: #1F1F1D;
+	color: #FFF;
+	padding: 40px 40px 40px 40px;
 }
 
 #contactus {
@@ -56,22 +69,11 @@ ul {
 	background-color: #A2A941;
 }
 
-
-#hotcup,#icedcup{}
-
-.hot,
-#teas {
+#iced,#teas,#specials {
 	line-height: 30pt;
 	font-size: 16pt;
 	text-align: left;
 }
-
-
-
-#iced {
-  line-height: 30pt;
-  font-size: 16pt;
-  text-align: left;}
 
 #locations {
 	line-height: 20pt;
@@ -81,40 +83,6 @@ ul {
 }
 
 
-
-
-
 @media only screen and (min-width: 1024px) {
-	#about {
-display: flex;
-justify-content: space-around;
-	}
-
-  #espresso {
-  width: 700px;
-  margin-right: 0;
-	}
-
-#wrapper {padding-left: 70px; padding-right: 70px;}
-
-.menupics,#locationpics { width: 40%;
-
-	}
-
-	nav ul {
-		display: flex;
-		flex-wrap: nowrap;
-		justify-content: space-around;
-		padding: .5em .5em .5em .5em;
-	}
-	nav a {
-		font-size: 20pt;
-		font-weight: bold;
-	}
-
-	#iced-and-pic,#hot-and-specials{
-		display:flex;
-		justify-content: space-between;
-	}
 
 }
