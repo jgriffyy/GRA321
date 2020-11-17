@@ -1,83 +1,100 @@
-a {
-color:#311008;
-text-decoration:none;
-font-weight:700;
-font-family:Helvetica;
-font-size:16px;
-line-height:25pt;
+table {
+	width: 600px;
 }
 
 body {
-color:#311008;
-margin-left:20px;
-font-family:Helvetica;
-padding-top:5px;
-padding-bottom:5px;
-text-align: center;
+	color: #311008;
+	font-family: Helvetica;
 }
 
 h1 {
-font-size:20pt;
+	font-size: 20pt;
 }
 
 header {
-  text-align: center;
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 2em;
 }
 
 p {
-line-height:25pt;
-font-size:16pt;
+	line-height: 25pt;
+	font-size: 16pt;
+}
+
+a {
+	font-family: Helvetica;
+	font-size: 16pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+}
+
+nav ul {
+	font-size: 1.2em;
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+	text-align: center;
 }
 
 ul {
-list-style:none;
-line-height:30pt;
-font-size:16pt;
+	list-style: none;
+	line-height: 30pt;
+	font-size: 16pt;
 }
 
 #contactus {
-padding-top:3px;
-line-height:20pt;
+	padding-top: 3px;
+	line-height: 20pt;
 }
 
-#hot {
-display:inline-block;
-line-height:30pt;
-font-size:16pt;
-padding-right:33px;
-text-align: left;
+#hotcup,#icedcup{}
+
+#hot,
+#specials,
+#teas {
+	line-height: 30pt;
+	font-size: 16pt;
+	text-align: left;
 }
 
 #iced {
-display:inline-block;
-line-height:30pt;
-font-size:16pt;
-padding-right:70px;
-text-align: left;
-}
+  line-height: 30pt;
+  font-size: 16pt;
+  text-align: left;}
 
 #locations {
-line-height:20pt;
-font-size:14pt;
-padding-bottom:30px;
+	line-height: 20pt;
+	font-size: 14pt;
+	padding-bottom: 30px;
 }
 
-#specials {
-display:inline-block;
-line-height:30pt;
-font-size:16pt;
-padding-right:20px;
-text-align: left;
-}
 
-#teas {
-display:inline-block;
-line-height:30pt;
-font-size:16pt;
-padding-right:24px;
-text-align: left;
-}
+@media only screen and (min-width: 1024px) {
+	#about {
 
-#hotprices,#icedprices,#prices {
-display:inline-block;
+	}
+
+  #espresso {
+  width: 700px;
+  margin-right: 0;
+	}
+
+#wrapper {padding-left: 70px; padding-right: 70px;}
+
+.menupics,#locationpics { width: 40%;
+
+	}
+
+	nav ul {
+		display: flex;
+		flex-wrap: nowrap;
+		justify-content: space-around;
+		padding: .5em .5em .5em .5em;
+	}
+	nav a {
+		font-size: 20pt;
+		font-weight: bold;
+	}
 }
