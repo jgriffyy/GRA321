@@ -49,6 +49,7 @@ ul {
 	line-height: 20pt;
 }
 
+
 #hotcup,#icedcup{}
 
 #hot,
@@ -97,4 +98,10 @@ ul {
 		font-size: 20pt;
 		font-weight: bold;
 	}
+
+	#iced-and-pic{
+		display:flex;
+		justify-content: space-around;
+	}
+
 }
