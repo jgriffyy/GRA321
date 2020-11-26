@@ -23,6 +23,10 @@ header {
 	padding-bottom: 2em;
 }
 
+html {
+
+}
+
 nav ul {
 	font-size: 1.2em;
 	list-style: none;
@@ -30,6 +34,7 @@ nav ul {
 	padding-left: 0;
 	text-align: center;
 	background-color: #A2A941;
+
 }
 
 p {
@@ -58,7 +63,10 @@ ul {
 }
 
 #about p {
-	background-color: #1F1F1D;
+	background: url(https://github.com/jgriffyy/GRA321/blob/master/responsive-project/img/coffeedrip.jpg?raw=true) no-repeat
+		center center fixed;
+	background-size: cover;
+
 	color: #FFF;
 	padding: 40px 40px 40px 40px;
 }
