@@ -1,96 +1,90 @@
-a {
-	font-family: Helvetica;
-	font-size: 16pt;
-	font-weight: bold;
-	text-decoration: none;
-	color: black;
-}
-
-
-body {
-	color: #311008;
-	font-family: Helvetica;
-}
-
-
-h1 {
-	font-size: 20pt;
-}
+#about {
+background-color: #161411;
+color: white;
+font-size: 16px;
+padding: 10px 20px 30px 20px;}
 
 header {
-	text-align: center;
-	padding-top: 1em;
-	padding-bottom: 2em;
-}
+text-align: center;
+padding: 10px 10px 10px 10px;}
 
-html {
+nav a {
+color: black;
+font-size: 20px;}
 
-}
+nav {
+background-color: #A2A941;
+padding: 20px 40px 10px 0px;
+line-height: 2em;
+text-align: center;}
 
-nav ul {
-	font-size: 1.2em;
-	list-style: none;
-	margin: 0;
-	padding-left: 0;
-	text-align: center;
-	background-color: #A2A941;
-
-}
-
-p {
-	line-height: 25pt;
-	font-size: 16pt;
-}
-
-table {
-	width: 500px;
-}
-
-ul {
-	list-style: none;
-	line-height: 30pt;
-	font-size: 16pt;
-}
-
-.hot {
-	line-height: 30pt;
-	font-size: 16pt;
-	text-align: left;
-}
-
-.menupics {
-	width: 100%;
-}
-
-#about p {
-	background: url(https://github.com/jgriffyy/GRA321/blob/master/responsive-project/img/coffeedrip.jpg?raw=true) no-repeat
-		center center fixed;
-	background-size: cover;
-
-	color: #FFF;
-	padding: 40px 40px 40px 40px;
-}
+ul {list-style: none;}
 
 #contactus {
-	padding: 10px 30px 30px 30px;
-	line-height: 20pt;
-	background-color: #A2A941;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: 16px;
+  background-color: #A2A941;
+  color: #161411;
 }
+#iced, #hot, #specials, #teas{
+column-count: 2;
+padding-left: 20px;
+font-size: 16px;
+line-height: 30px;}
 
-#iced,#teas,#specials {
-	line-height: 30pt;
-	font-size: 16pt;
-	text-align: left;
-}
+#food{
+padding-left: 20px;
+padding-right: 30px;
+font-size: 16px;
+line-height: 30px;
+text-align: center;}
+
+#iced ul,
+#hot ul,
+#specials ul,
+#teas ul {
+padding-left: 75px;}
+
+
+.img {text-align: center;}
 
 #locations {
-	line-height: 20pt;
-	font-size: 14pt;
-	padding: 5px 30px 30px 30px;
-	background-color: #F3F3F3;
+background-color: #F3F3F3;
+font-size: 16px;}
+
+#locations p{
+  padding-left: 25px;
+  padding-bottom: 30px;
+  font-size: 16px;
+  }
+
+  #locations h3 {
+    padding-top: 20px;
+    padding-left: 25px;
+  }
+
+@media (min-width: 1024px) {
+
+#iced {padding-left: 40px;}
+
+  #about{display: flex;
+  flex-flow: nowrap;
+   justify-content: space-between;
 }
 
+#about p { font-size: 25px;
+padding: 40px 60px 0px 40px;}
 
-@media only screen and (min-width: 1024px) {
+  #espresso {width:3000px;
+  padding-top: 20px;
+  padding-right: 40px;}
+
+  nav ul{
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+  }
+
 
 }

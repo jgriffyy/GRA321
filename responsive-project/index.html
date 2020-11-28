@@ -6,12 +6,13 @@
    <head>
       <title>Charlie's Cafe</title>
       <meta charset="UTF-8">
-      <meta name="description" content="your content here">
-      <meta name="keywords" content="your content here">
-      <meta name="author" content="your name">
+      <meta name="description" content="Charlie's Cafe">
+      <meta name="keywords" content="Coffee, Tea, Food">
+      <meta name="author" content="Joy Griffin">
       <!--favicons should be saved as squares, at 32 x 32 px-->
       <link rel="icon" type="image/png" href="link to favicon img here" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="./css/normalize.css"/>
       <link rel="stylesheet" type="text/css" href="./css/style.css" />
    </head>
    <!--
@@ -23,15 +24,15 @@
          -->
 
       <header>
-         <img src="https://github.com/jgriffyy/gra-321-2020/blob/master/responsive-project/img/charlies.png?raw=true" width="150px" alt="Charlie's Cafe">
+         <img src="https://github.com/jgriffyy/gra-321-2020/blob/master/responsive-project/img/charlies.png?raw=true" width="30%" alt="Charlie's Cafe">
       </header>
 
       <nav>
          <ul>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#menu">Menu</a></li>
-            <li><a href="#locations">Locations</a></li>
-            <li><a href="#contactus">Contact us</a></li>
+            <li><strong><a href="#about">About Us</a></strong></li>
+            <li><strong><a href="#menu">Menu</a></strong></li>
+            <li><strong><a href="#locations">Locations</a></strong></li>
+            <li><strong><a href="#contactus">Contact us</a></strong></li>
          </ul>
       </nav>
 
@@ -39,293 +40,219 @@
          Main
          -->
       <main>
+        <section id="about">
 
-         <section id="about" class="content-row">
-            <div class="column-one">
-              <p><strong>ABOUT US</strong><br>
-               Charlie's Café, one of Sun Devil Dining’s local restaurant partners, brings the taste of Europe to ASU! Proudly serving Lavazza Italian espresso and
-               featuring fresh European sandwiches and baked goods. Come experience the difference!
-            </p>
-          </div>
+           <p><strong>ABOUT US</strong><br><br>Charlie's Café, one of Sun Devil Dining’s local
+             restaurant partners, brings the taste of Europe
+             to ASU! Proudly serving Lavazza Italian espresso
+             and featuring fresh European sandwiches and
+             baked goods. Come experience the difference!
+           </p>
 
-            <div id="espresso" class="column-two">
-              
-            </div>
+          <div id="espresso">
+        <img src="https://github.com/jgriffyy/gra-321-2020/blob/master/responsive-project/img/coffeedrip.jpg?raw=true" width="100%" alt="Espresso">
+         </div>
          </section>
 
-         <section id="menu">
-         <div id="iced">
-           <h1>MENU</h1>
-            <table>
-               <tr>
-                  <th>Iced Drinks</th>
-               </tr>
-               <tr>
-                  <td>Coffee</td>
-                  <td>1.75 | 2.25 | 3.00</td>
-               </tr>
-               <tr>
-                  <td>Americano</td>
-                  <td>2.00 | 2.50 | 3.25</td>
-               </tr>
-               <tr>
-                  <td>Latte</td>
-                  <td>1.75 | 2.25 | 3.00</td>
-               </tr>
-               <tr>
-                  <td>Mocha</td>
-                  <td>2.75 | 3.50 | 4.25</td>
-               </tr>
-               <tr>
-                  <td>Chai</td>
-                  <td>3.00 | 3.75 | 4.50</td>
-               </tr>
-               <tr>
-                  <td>Thai Cappuccino</td>
-                  <td>1.65 | 1.95 | 2.25</td>
-               </tr>
-               <tr>
-                  <td>Thai Tea</td>
-                  <td>2.50 | 3.15 | 3.80</td>
-               </tr>
-               <tr>
-                  <td>Iced Tea</td>
-                  <td>1.65 | 1.95 | 2.25</td>
-               </tr>
-            </table>
+        <section id="iced">
+           <h3><strong>MENU</strong></h3>
+           <strong>Iced Drinks</strong>
+              <br> Coffee
+              <br> Americano
+              <br> Latte
+              <br> Mocha
+              <br> Chai
+              <br> Mocha Frappe
+              <br> Thai cappuccino
+              <br> Thai tea
+              <br> Iced tea
+              <br><br><br><br><br>
+           <ul>
+              <li>1.75 | 2.25 | 3.00</li>
+              <li>2.00 | 2.50 | 3.25</li>
+              <li>1.75 | 2.25 | 3.00</li>
+              <li>2.75 | 3.50 | 4.25</li>
+              <li>3.00 | 3.75 | 4.50</li>
+              <li>3.25 | 4.00 | 4.75</li>
+              <li>1.65 | 1.95 | 2.25</li>
+              <li>2.50 | 3.15 | 3.80</li>
+              <li>3.00 | 3.75 | 4.25</li>
+           </ul>
+ </section>
+         <div class="img">
+         <img src="https://github.com/jgriffyy/gra-321-2020/blob/master/responsive-project/img/frappe.jpg?raw=true" width="90%" alt="Frappe">
          </div>
 
-         <div class="menupics" id="frappe">
-            <img src="https://github.com/jgriffyy/gra-321-2020/blob/master/responsive-project/img/frappe.jpg?raw=true" height="100%" width="100%" alt="Frappe">
-         </div>
+           <section id="hot">
+            <br> <strong>Hot Drinks</strong>
+              <br> Espresso
+              <br> Espresso macchiato
+              <br> Americano
+              <br> Cappuccino
+              <br> Caffe Latte
+              <br> Caffe mocha
+              <br> Caramel macchiato
+              <br> Drip Coffee
+              <br> Hot Chocolate
+              <br> Chai
+              <br>Organic Tea
+              <br><br><br><br>
+           <ul>
+              <li>1.75 | 2.25 | 3.00</li>
+              <li>2.00 | 2.50 | 3.25</li>
+              <li>1.75 | 2.25 | 3.00</li>
+              <li>2.75 | 3.50 | 4.25</li>
+              <li>3.00 | 3.75 | 4.50</li>
+              <li>3.25 | 4.00 | 4.75</li>
+              <li>1.65 | 1.95 | 2.25</li>
+              <li>2.50 | 3.15 | 3.80</li>
+              <li>3.00 | 3.75 | 4.25</li>
+              <li>1.75 | 2.25 | 3.00</li>
+              <li>2.25</li>
+           </ul>
+         </section>
 
-         <div class="hot">
-            <table>
-               <tr>
-                  <th>Hot Drinks</th>
-               </tr>
-               <tr>
-                  <td>Espresso</td>
-                  <td>1.75 | 2.25 | 3.00</td>
-               </tr>
-               <tr>
-                  <td>Espresso Macchiato</td>
-                  <td>2.00 | 2.50 | 3.25</td>
-               </tr>
-               <tr>
-                  <td>Americano</td>
-                  <td>1.75 | 2.25 | 3.00</td>
-               </tr>
-               <tr>
-                  <td>Cappuccino</td>
-                  <td>2.75 | 3.50 | 4.25</td>
-               </tr>
-               <tr>
-                  <td>Caffe Latte</td>
-                  <td>3.00 | 3.75 | 4.50</td>
-               </tr>
-               <tr>
-                  <td>Caffe Mocha</td>
-                  <td>1.65 | 1.95 | 2.25</td>
-               </tr>
-               <tr>
-                  <td>Caramel Macchiato</td>
-                  <td>2.50 | 3.15 | 3.80</td>
-               </tr>
-               <tr>
-                  <td>Drip Coffee</td>
-                  <td>1.65 | 1.95 | 2.25</td>
-               </tr>
-               <tr>
-                  <td>Hot Chocolate</td>
-                  <td>1.65 | 1.95 | 2.25</td>
-               </tr>
-               <tr>
-                  <td>Chai</td>
-                  <td>1.65 | 1.95 | 2.25</td>
-               </tr>
-               <tr>
-                  <td>Organic Tea</td>
-                  <td>1.65</td>
-               </tr>
-            </table>
-         </div>
+           <section id="specials">
+             <br><strong>Specials</strong>
+              <br> Mochaccino
+              <br> White Chocolate
+              <br> Cinnamon Iced
+              <br> Dark Chocolate
+              <br> Banana Nut Mocha
+              <br> Thai Iced Cappuccino
+              <br> Joyous Almond Latte
+              <br><br><br>
+           <ul>
+              <li>1.75 | 2.25 | 3.00</li>
+              <li>2.00 | 2.50 | 3.25</li>
+              <li>1.75 | 2.25 | 3.00</li>
+              <li>2.75 | 3.50 | 4.25</li>
+              <li>3.00 | 3.75 | 4.50</li>
+              <li>3.25 | 4.00 | 4.75</li>
+              <li>1.65 | 1.95 | 2.25</li>
+           </ul>
+         </section>
 
-         <div id="specials">
-            <table>
-               <tr>
-                  <th>Specials</th>
-               </tr>
-               <tr>
-                  <td>Mochaccino</td>
-                  <td>1.75 | 2.25 | 3.00</td>
-               </tr>
-               <tr>
-                  <td>White Chocolate</td>
-                  <td>2.00 | 2.50 | 3.25</td>
-               </tr>
-               <tr>
-                  <td>Cinnamon Iced</td>
-                  <td>2.75 | 3.50 | 4.25</td>
-               </tr>
-               <tr>
-                  <td>Dark Chocolate</td>
-                  <td>1.65 | 1.95 | 2.25</td>
-               </tr>
-               <tr>
-                  <td>Banana Nut Mocha</td>
-                  <td>1.65 | 1.95 | 2.25</td>
-               </tr>
-               <tr>
-                  <td>Thai Iced Cappuccino</td>
-                  <td>1.65 | 1.95 | 2.25</td>
-               </tr>
-               <tr>
-                  <td>Joyous Almond Latte</td>
-                  <td>1.65 | 1.95 | 2.25</td>
-               </tr>
-            </table>
-         </div>
+         <div class="img">
+         <img src="https://github.com/jgriffyy/GRA321/blob/master/responsive-project/img/hot-and-iced.jpg?raw=true" width="90%" alt="Hot-and-Iced">
+        </div>
 
-         <div class="menupics">
-            <img src="https://github.com/jgriffyy/GRA321/blob/master/responsive-project/img/hot-and-iced.jpg?raw=true" height="100%" width="100%" alt="hot-and-iced">
-         </div>
+           <section id="teas">
+             <br><strong>Teas</strong>
+              <br> Black Tea
+              <br> Earl Grey
+              <br> English Breakfast
+              <br> Green Tea
+              <br> Yerba Mate
+              <br> Jasmine Green
+              <br> Sencha
+              <br> Raspberry hibiscus
+              <br> Chamomile
+              <br> Lemon Ginger
+              <br> Ice tea
+              <br> Moroccan mint green
+              <br> Black passion fruit
+              <br><br><br>
+           <ul>
+              <li>1.75 | 2.25 | 3.00</li>
+              <li>2.00 | 2.50 | 3.25</li>
+              <li>1.75 | 2.25 | 3.00</li>
+              <li>2.75 | 3.50 | 4.25</li>
+              <li>3.00 | 3.75 | 4.50</li>
+              <li>3.25 | 4.00 | 4.75</li>
+              <li>1.65 | 1.95 | 2.25</li>
+              <li>2.50 | 3.15 | 3.80</li>
+              <li>3.00 | 3.75 | 4.25</li>
+              <li>1.75 | 2.25 | 3.00</li>
+              <li>1.65 | 1.95 | 2.25</li>
+              <li>2.50 | 3.15 | 3.80</li>
+              <li>3.00 | 3.75 | 4.25</li>
+           </ul>
+         </section>
 
-         <div id="teas">
-            <table>
-               <tr>
-                  <th>Teas</th>
-               </tr>
-               <tr>
-                  <td>Black Tea</td>
-                  <td>1.75 | 2.25 | 3.00</td>
-               </tr>
-               <tr>
-                  <td>Earl Grey</td>
-                  <td>2.00 | 2.50 | 3.25</td>
-               </tr>
-               <tr>
-                  <td>English Breakfast</td>
-                  <td>1.75 | 2.25 | 3.00</td>
-               </tr>
-               <tr>
-                  <td>Green Tea</td>
-                  <td>2.75 | 3.50 | 4.25</td>
-               </tr>
-               <tr>
-                  <td>Yerba Mate</td>
-                  <td>3.00 | 3.75 | 4.50</td>
-               </tr>
-               <tr>
-                  <td>Jasmine Green</td>
-                  <td>1.65 | 1.95 | 2.25</td>
-               </tr>
-               <tr>
-                  <td>Sencha</td>
-                  <td>2.50 | 3.15 | 3.80</td>
-               </tr>
-               <tr>
-                  <td>Raspberry hibiscus</td>
-                  <td>1.65 | 1.95 | 2.25</td>
-               </tr>
-               <tr>
-                  <td>Chamomile</td>
-                  <td>1.65 | 1.95 | 2.25</td>
-               </tr>
-               <tr>
-                  <td>Lemon Ginger</td>
-                  <td>1.65 | 1.95 | 2.25</td>
-               </tr>
-               <tr>
-                  <td>Moroccan Mint Green</td>
-                  <td>1.65 | 1.95 | 2.25</td>
-               </tr>
-               <tr>
-                  <td>Black Passion Fruit</td>
-                  <td>1.65 | 1.95 | 2.25</td>
-               </tr>
-            </table>
-         </div>
+           <div class="img">
+           <img src="https://github.com/jgriffyy/gra-321-2020/blob/master/responsive-project/img/tea.jpg?raw=true" width="90%" alt="Tea">
+           </div>
 
-         <div class="menupics">
-            <img src="https://github.com/jgriffyy/gra-321-2020/blob/master/responsive-project/img/tea.jpg?raw=true" height="100%" width="100%" alt="Tea">
-         </div>
-
-         <div id="food">
-            <p>
-               <strong>Italiano | 6.99</strong>
-               Grilled baguette with prosciutto,
-               mozzarella, sliced tomato, basil pesto
-               and a touch of balsamic vinegar.
-            </p>
-            <p> <strong>Seville | 6.99</strong>
-               Grilled baguette with spinach chorizo
-               mozzarella, sliced tomato, roasted red
-               pepper, sun dried tomato pesto and a
-               touch of balsamic vinegar.
-            </p>
-            <p> <strong>Milano | 6.99</strong>
-               Grilled baguette with prosciutto,
-               salami, ham, mozzarella, sliced tomato,
-               pepperoncini. basil pesto and a touch
-               of balsamic vinegar.
-            </p>
-            <p> <strong>Caprese | 6.99</strong>
-               Grilled baguette with mozzarella,
-               sliced tomato, fresh basil, basil pesto,
-               and a touch of balsamic vinegar.
-            </p>
-            <p> <strong>Vegetarian Panini | 5.99</strong>
-               Grilled herb focaccia with mozzarella,
+           <section id="food">
+           <br><h3><strong>Food</strong></h3>
+           <p>
+              <strong>Italiano | 6.99</strong>
+              <br> Grilled baguette with prosciutto,
+              mozzarella, sliced tomato, basil pesto
+              and a touch of balsamic vinegar.
+           </p>
+           <p> <strong>Seville | 6.99</strong>
+              <br> Grilled baguette with spinach chorizo
+              mozzarella, sliced tomato, roasted red
+              pepper, sun dried tomato pesto and a
+              touch of balsamic vinegar.
+           </p>
+           <p> <strong>Milano | 6.99</strong>
+              <br> Grilled baguette with prosciutto,
+              salami, ham, mozzarella, sliced tomato,
+              pepperoncini. basil pesto and a touch
+              of balsamic vinegar.
+           </p>
+           <p> <strong>Caprese | 6.99</strong>
+              <br>Grilled baguette with mozzarella,
+              sliced tomato, fresh basil, basil pesto,
+              and a touch of balsamic vinegar.
+           </p>
+           <p> <strong>Vegetarian Panini | 5.99</strong>
+               <br>Grilled herb focaccia with mozzarella,
                feta cheese, roasted red peppers,
                marinated artichoke, tomato, red onion,
                and finished with basil pesto.
-            </p>
-            <p> <strong>Mediterranean Chicken | 7.99</strong>
-               Grilled focaccia with spiced chicken breast,
+           </p>
+           <p> <strong>Mediterranean Chicken | 7.99</strong>
+               <br>Grilled focaccia with spiced chicken breast,
                mozzarella, roasted red peppers,
                sliced tomato, and sun dried tomato pesto.
-            </p>
-         </div>
-
-         <div class="menupics" id="caprese">
-            <img src="https://github.com/jgriffyy/gra-321-2020/blob/master/responsive-project/img/caprese.jpg?raw=true" height="100%" width="100%" alt="Caprese">
-         </div>
+           </p>
          </section>
 
-         <section id="locations">
-            <h1>LOCATIONS</h1>
-            <strong>Design North</strong>
-            <br> 1001 S Forest Mall, Tempe, AZ 85287
-            <br> <strong>Biodesign Institute Building B</strong>
-            <br> 727 E Tyler St, Tempe, AZ 85281
-            <br> <strong>Hayden Library</strong>
-            <br> 300 Orange Mall, Tempe, AZ 85281
-            <br>
-            <br><strong>Hours</strong>
-            <br> Monday-Friday: 7 a.m. - 3 p.m.
-            <br> Saturday-Sunday: Closed </ul>
-            <br>
-            <br>
-
-         <div id="locationpics">
-            <img src="https://github.com/jgriffyy/gra-321-2020/blob/master/responsive-project/img/locations.jpg?raw=true" height="100%" width="100%" alt="locations">
+         <br><br>
+         <div class="img">
+           <img src="https://github.com/jgriffyy/gra-321-2020/blob/master/responsive-project/img/caprese.jpg?raw=true" width="90%" alt="Caprese">
          </div>
-       </section>
 
-      </main>
-      <!--
-         Footer
-         -->
-      <footer>
-         <section id="contactus">
-            <h1>CONTACT US</h1>
-            <p>#: (480) 965-3515
-               <br> IG: @charlies_cafe_hayden
-               <br> FB: charliescafeasu
-            </p>
-         </section>
-      </footer>
+        <section id="locations">
+           <h3><strong>LOCATIONS</strong></h3>
+           <p>
+           <strong>Design North</strong>
+           <br> 1001 S Forest Mall, Tempe, AZ 85287
+           <br> <strong>Biodesign Institute Building B</strong>
+           <br> 727 E Tyler St, Tempe, AZ 85281
+           <br> <strong>Hayden Library</strong>
+           <br> 300 Orange Mall, Tempe, AZ 85281
+           <br>
+           <br><strong>Hours</strong>
+           <br> Monday-Friday: 7 a.m. - 3 p.m.
+           <br> Saturday-Sunday: Closed
+         </p>
+      <div class="img">
+        <img src="https://github.com/jgriffyy/gra-321-2020/blob/master/responsive-project/img/locations.jpg?raw=true" width="90%" alt="locations">
+      </div>
+        <br>
 
-   </body>
-</html>
+        <!--
+           Footer
+           -->
+  	<footer> </footer>
+  </body>
+
+        <footer>
+
+          <section id="contactus">
+             <h3><strong>CONTACT US</strong></h3>
+            <br> <p>#: (480) 965-3515
+                <br> IG: @charlies_cafe_hayden
+                <br> FB: charliescafeasu
+             </p>
+             <br>
+          </section>
+
+        </footer>
+     </body>
+  </html>
